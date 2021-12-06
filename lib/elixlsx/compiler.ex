@@ -4,11 +4,8 @@ defmodule Elixlsx.Compiler do
   alias Elixlsx.Compiler.DrawingCompInfo
   alias Elixlsx.Compiler.CellStyleDB
   alias Elixlsx.Compiler.StringDB
-<<<<<<< HEAD
   alias Elixlsx.XML
-=======
   alias Elixlsx.Compiler.DrawingDB
->>>>>>> b334490 (Add image support)
   alias Elixlsx.Sheet
 
   @doc ~S"""

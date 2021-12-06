@@ -252,11 +252,11 @@ defmodule Elixlsx.Sheet do
     %{sheet | pane_freeze: nil}
   end
 
-<<<<<<< HEAD
   @spec add_data_validations(Sheet.t(), String.t(), String.t(), list(String.t())) :: Sheet.t()
   def add_data_validations(sheet, start_cell, end_cell, values) do
     %{sheet | data_validations: [{start_cell, end_cell, values} | sheet.data_validations]}
-=======
+  end
+
   @doc """
   Insert an image at a given position.
   """
@@ -271,6 +271,5 @@ defmodule Elixlsx.Sheet do
 
     # Add the image to the list of images in this sheet
     update_in(sheet.images, &[image | &1])
->>>>>>> b334490 (Add image support)
   end
 end
